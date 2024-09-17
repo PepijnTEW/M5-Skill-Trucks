@@ -68,7 +68,7 @@ a{
     background: #fcd9b1;
     color: #a13f36;
 }
-.articleSection > div {
+.articleSection > section {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -173,9 +173,31 @@ a{
     width: 100vw;
     height: 33vh;
 }
-.row > img{
+.foto > img{
     height: 100%;
     width: 100%;
+}
+.foto{
+    height: 100%;
+    width: 101%;
+    list-style: none;
+    position: relative;
+}
+.foto::after{
+    height: 101%;
+    width: 100%;
+    background: rgba(161, 63, 54,.3);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(1);
+    transition: .8s;
+    transform-origin: right;
+}
+.foto:hover::after{
+    transform: scaleX(0);
+
 }
 footer{
     height: 40rem;
