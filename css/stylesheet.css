@@ -19,6 +19,10 @@ html{
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+    color: #fcd9b1;
+    text-decoration: none;
+}
 .list{
     display: flex;
     list-style: none;
@@ -46,7 +50,7 @@ html{
     height: 100vh;
     position: relative;
     background-color: #a13f36;
-    background-image: linear-gradient(rgba(161, 63, 54,.5),rgba(161, 63, 54,.5)),url(../css/img/banner.png);
+    background-image: linear-gradient(rgba(161, 63, 54,.5),rgba(161, 63, 54,.5)),url(../img/banner.webp);
     background-size: cover; 
     display: flex;
     flex-direction: column;
@@ -87,7 +91,7 @@ html{
 .mainImage{
     width: 64rem;
     height: 36rem;
-    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .5)) , url(..//css/img/intro.jpeg);
+    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .5)) , url(../img/intro.webp);
     background-size: cover;
 }
 .featureSection{
@@ -129,19 +133,19 @@ html{
     border-radius: 50%;
 }
 .img1{
-    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(..//css/img/Walt.jpg);
+    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(../img/Walt.webp);
     background-size: cover;
 }
 .img2{
-    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(..//css/img/celAnimation.jpg);
+    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(../img/celAnimation.webp);
     background-size: cover;
 }
 .img3{
-    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(..//css/img/weber-desk.jpg);
+    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(../img/celAnimation.webp);
     background-size: cover;
 }
 .img4{
-    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(..//css/img/teamfoto.jpg);
+    background:linear-gradient(rgba(252, 217, 177, .5),rgba(252, 217, 177, .3)) , url(../img/teamfoto.webp);
     background-size: cover;
 }
 
@@ -153,4 +157,29 @@ html{
     gap: 1rem;
     font-size: 175%;
     text-align: center;
+}
+.imgSection{
+    height: 100vh;
+    width: 100vw;
+    background-color: #a13f36;
+
+}
+.imgGrid{
+    height: 100vh;
+    width: 100vw;;
+    display: flex;
+}
+.row{
+    width: 100vw;
+    height: 33vh;
+}
+.row > img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 40rem;
+    background-color: #a13f36;
+    color: #fcd9b1;
+    font-size: 3rem;
 }
